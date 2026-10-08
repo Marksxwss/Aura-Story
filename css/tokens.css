@@ -5,31 +5,31 @@
  */
 
 :root {
-    /* --- Palette: Neutros (Dominantes ~60%) --- */
-    --color-white: #FBFBFB;
-    --color-stone-light: #F5F5F5;
-    --color-stone: #EBEBEB;
-    --color-stone-dark: #D1D1D1;
-    --color-stone-deep: #BDBDBD;
+    /* --- Palette: Cyber Dark (Dominantes) --- */
+    --color-white: #FFFFFF;
+    --color-stone-light: #1A1C1E;
+    --color-stone: #121416;
+    --color-stone-dark: #0B0C0D;
+    --color-stone-deep: #050506;
 
-    /* --- Palette: Apoio e Acento (30% / 10%) --- */
-    --color-terracotta: #8D5B4C;      /* Cor de cerâmica e argila */
-    --color-terracotta-light: #B38B7E;
-    --color-forest: #2D352D;          /* Verde profundo para contraste e luxo */
-    --color-forest-light: #4A564A;
+    /* --- Palette: Neon Accent (Acento Futurista) --- */
+    --color-terracotta: #00F2FF;      /* Ciano Neon (Substitui o Terracota) */
+    --color-terracotta-light: #70F9FF;
+    --color-forest: #0A0A0F;          /* Preto Profundo (Substitui o Verde) */
+    --color-forest-light: #161B22;
 
     /* --- Texto e Bordas --- */
-    --color-text-main: #1A1A1A;
-    --color-text-muted: #666666;
-    --color-border: #D1D1D1;
-    --color-border-light: #E5E5E5;
-    --color-surface: #FFFFFF;
+    --color-text-main: #E0E0E0;
+    --color-text-muted: #A0A0A0;
+    --color-border: #2D2D3D;
+    --color-border-light: #1E1E2E;
+    --color-surface: #121416;
 
     /* --- Tipografia --- */
     --font-serif: 'Newsreader', serif;
     --font-sans: 'Hanken Grotesque', sans-serif;
 
-    /* Escala fluida com clamp() para evitar quebras bruscas */
+    /* Escala fluida */
     --fs-xs: clamp(0.7rem, 0.65rem + 0.25vw, 0.8rem);
     --fs-sm: clamp(0.8rem, 0.75rem + 0.25vw, 0.9rem);
     --fs-base: clamp(1rem, 0.95rem + 0.25vw, 1.1rem);
@@ -38,14 +38,14 @@
     --fs-xl: clamp(2rem, 1.5rem + 3vw, 4.5rem);
     --fs-xxl: clamp(3rem, 2rem + 5vw, 7rem);
 
-    /* --- Espaçamento (Sistema de 8px) --- */
+    /* --- Espaçamento --- */
     --space-xs: 0.5rem;
     --space-sm: 1rem;
     --space-md: 2rem;
     --space-lg: 4rem;
     --space-xl: 8rem;
 
-    /* --- Easing & Durations (Sistemáticos, sem aleatoriedade) --- */
+    /* --- Easing & Durations --- */
     --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
     --ease-in-out-sine: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     --duration-fast: 200ms;
